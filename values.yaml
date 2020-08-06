@@ -1,5 +1,7 @@
 gitlabUrl: https://git.ligo.org/
-runnerRegistrationToken: "T8sBio2xjRyNzvPJDday"
+runnerRegistrationToken: <my_token_goes_here>
 rbac:
   create: false
   serviceAccountName: runner
+runners:
+  privileged: true
